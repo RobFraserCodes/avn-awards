@@ -88,7 +88,7 @@ const HomePage = () => {
                     <p className="text-gray-400 mb-4 text-center">{event.subtitle}</p>
                   </div>
                   <Link href="/awards"
-                    className="outline bg-transparent text-white hover:bg-slate-200 hover:cursor font-bold py-2 px-4 rounded">
+                    className="outline bg-transparent text-white hover:bg-slate-200/50 hover:cursor font-bold py-2 px-4 rounded">
                     {event.btn}
                   </Link>
                 </div>
